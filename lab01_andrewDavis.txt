@@ -1,0 +1,20 @@
+1. Change Directory
+2. Create a Directory
+3. Rename a Directory
+4. List the contents of a directory
+5. Move a file to a new location
+6. Copy a file to a new location
+7. Search for a string in a file
+8. Access the shell of a remote machine
+9. Remove a directory folder
+
+-- Answers
+1. cd desktop ##takes you to desktop
+2. mkdir webproject ##makes a folder titled 'webproject' on your desktop
+3. mv lab01.txt lab01_andrewDavis.txt ##renames file from lab01.txt to lab01_andrewDavis.txt
+4. ls -lh ##lists the contents of a directory in human readable form w/ file sizes
+5. mv /Desktop/webproject/lab01_andrewDavis.txt /Documents/Classes/lab01_andrewDavis.txt ##moves file from desktop folder to classes folder in documents
+6. cp /Desktop/webproject/lab01_andrewDavis.txt /Documents/Classes/lab01_andrewDavis.txt ##copies file from desktop folder to classes folder in documents
+7. grep -l 123abc *.txt ##will list the name of any file in the current directory that ends in .txt and contains the string 123abc
+8. ssh username@ipaddress ##using a username and ip address you can use secure shell and be prompted to enter a password
+9. rm -rf /Desktop/webproject ##would remove a directory folder and all files contained therein
